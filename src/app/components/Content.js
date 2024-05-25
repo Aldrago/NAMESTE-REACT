@@ -13,19 +13,17 @@ const Content = () => {
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   const RestaurantCardsPromoted = withPromotedLabel(Restaurant);
 
-  useEffect(() => {
-    setFilteredRestaurants(resData);
-  }, [resData]);
-
   if (!onlineStatus) {
     return <h1>Please check your Internet!!</h1>;
   }
 
+  useEffect(() => {
+    setFilteredRestaurants(resData);
+  }, [resData]);
+
   if (filteredRestaurants.length === 0) {
     return <Shimmer />;
   }
-
-  console.log(filteredRestaurants);
 
   return (
     <div>
@@ -34,11 +32,13 @@ const Content = () => {
           <input
             className="border border-gray-600 m-4"
             type="text"
+            data-testid="searchText"
             value={searchText}
             onChange={(event) => setSearchText(event.target.value)}
           />
           <button
             className="px-2 py-1 bg-green-400 rounded"
+            data-testid="searchBtn"
             onClick={() =>
               setFilteredRestaurants(() =>
                 resData.filter((res) =>

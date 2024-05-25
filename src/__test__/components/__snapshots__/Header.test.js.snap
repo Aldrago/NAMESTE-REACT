@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component test cases Should match snapshort 1`] = `
+<div>
+  <div
+    class="flex justify-between bg-yellow-100"
+  >
+    <div
+      class="w-32"
+    >
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/007/890/977/original/burger-logo-for-fast-food-business-free-vector.jpg"
+      />
+    </div>
+    <div
+      class="flex items-center"
+    >
+      <ul
+        class="flex p-4 m-4"
+      >
+        <li
+          class="px-4 text-xl"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="px-4 text-xl"
+        >
+          <a
+            href="/about"
+          >
+            About us
+          </a>
+        </li>
+        <li
+          class="px-4 text-xl"
+        >
+          <a
+            href="/contact"
+          >
+            Contact us
+          </a>
+        </li>
+        <li
+          class="px-4 text-xl"
+        >
+          <a
+            href="/cart"
+          >
+            Cart -(
+            0
+             items)
+          </a>
+        </li>
+        <li
+          class="px-4 py-1 text-lg bg-gray-100 rounded-lg"
+        >
+          <button
+            class="login-btn"
+          >
+            Login
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

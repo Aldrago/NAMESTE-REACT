@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Restaurant card component test cases Should match Restaurant snapshot 1`] = `
+<div>
+  <div
+    class="m-4 p-4 w-[300px] rounded-lg bg-gray-100 content-center"
+    data-testid="resCard"
+  >
+    <img
+      class="rounded-lg h-[200] w-[280]"
+      src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/49845b494b1e637209b7bd1c7ca184ad"
+    />
+    <h2
+      class="pt-2 font-bold truncate"
+    >
+      Havmor Havfunn Ice Cream
+    </h2>
+    <h6
+      class="py-1 text-xs truncate"
+    >
+      Ice Cream, Ice Cream Cakes, Desserts, Beverages
+    </h6>
+    <h4
+      class="pt-2"
+    >
+      31
+       minutes
+    </h4>
+    <h4>
+      ⭐
+      4.7
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`Restaurant card component test cases Should match Restaurant with promoted label snapshot 1`] = `
+<div>
+  <div>
+    <label
+      class="absolute bg-black text-white p-1 rounded-lg bg-opacity-[0.7] "
+    >
+      Promoted
+    </label>
+    <div
+      class="m-4 p-4 w-[300px] rounded-lg bg-gray-100 content-center"
+      data-testid="resCard"
+    >
+      <img
+        class="rounded-lg h-[200] w-[280]"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/49845b494b1e637209b7bd1c7ca184ad"
+      />
+      <h2
+        class="pt-2 font-bold truncate"
+      >
+        Havmor Havfunn Ice Cream
+      </h2>
+      <h6
+        class="py-1 text-xs truncate"
+      >
+        Ice Cream, Ice Cream Cakes, Desserts, Beverages
+      </h6>
+      <h4
+        class="pt-2"
+      >
+        31
+         minutes
+      </h4>
+      <h4>
+        ⭐
+        4.7
+      </h4>
+    </div>
+  </div>
+</div>
+`;

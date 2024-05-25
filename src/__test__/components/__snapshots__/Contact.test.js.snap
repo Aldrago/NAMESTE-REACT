@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact us page test cases Should match snapshort 1`] = `
+<div>
+  <div>
+    <h1
+      class="font-bold text-2xl"
+    >
+      Contact us!
+    </h1>
+    <form>
+      <input
+        class=""
+        placeholder="name"
+        type="text"
+      />
+      <input
+        class=""
+        placeholder="message"
+        type="text"
+      />
+      <button>
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;
